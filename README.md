@@ -1,11 +1,15 @@
 # Common-Ground-detection
 
-CG_3.ipynb contains a model (saved parameters in multinomial_3.pt file) that classifies utterances as "Statement", "Accept" and "Doubt". Notebook could be ran as a whole (if pt file is in the same folder). Must have data folder (see link below).
+Move_Classifier_final.ipynb Creates the move classifier as presented in the paper.
 
-CG.ipynb contains data reading, model initialization, training and testing
+CG_3_pipeline_integration merges all parts of the model together (move classifier, propositional extractor, and updates the Banks)
 
 k_hots.ipynb constructs the k hot vectors for GAMR and actions
 
-Mapping to oracle.ipynb maps the gamr, action and cps annotation to oracle segments
+Mapping to oracle.ipynb maps the gamr, action and cps annotation to oracle segments.
+
+utt_encoding.py generates all possible propositons and their embeddings.
+
+
 
 Data is located at https://drive.google.com/open?id=1B4pzoS7E4iXu8R2OKZiJOySmM8IKHWCp&usp=drive_fs (Need permission to access)
