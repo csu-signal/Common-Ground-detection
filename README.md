@@ -8,7 +8,7 @@ Published at LREC-COLING 2024
 
 ## Repo Content
 
-`CG_3_pipeline_integration` merges all parts of the model together (move classifier, propositional extractor, and updates the Banks). This is primarily what you need to run the code, other files are only needed if you want to explore different paths with this project.
+`CG_3_pipeline_integration.ipynb` merges all parts of the model together (move classifier, propositional extractor, and updates the Banks). This is primarily what you need to run the code, other files are only needed if you want to explore different paths with this project.
 
 `Move_Classifier_final.ipynb` Creates the move classifier as presented in the paper. This also includes code used for grid search for hyperparameter optimization, and more detailed performance results
 
@@ -20,6 +20,6 @@ Published at LREC-COLING 2024
 
 ## Data Used
 
-Data is located at [https://drive.google.com/open?id=1B4pzoS7E4iXu8R2OKZiJOySmM8IKHWCp&usp=drive_fs] (Need permission to access)
+Data is located at https://drive.google.com/open?id=1B4pzoS7E4iXu8R2OKZiJOySmM8IKHWCp&usp=drive_fs (Need permission to access)
 
 The Google Drive link also includes saved checkpoint of the 10 final models.
